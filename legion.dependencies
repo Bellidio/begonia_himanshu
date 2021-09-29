@@ -1,6 +1,18 @@
 [
   {
     "remote": "github",
+    "repository": "Bellidio/begonia_new",
+    "target_path": "device/redmi/begonia",
+    "branch": "11"
+  },
+  {
+    "remote": "github",
+    "repository": "abhixv/device_mediatek_sepolicy",
+    "target_path": "device/mediatek/sepolicy",
+    "branch": "main"
+  },
+  {
+    "remote": "github",
     "repository": "AgentFabulous/begonia",
     "target_path": "kernel/xiaomi/mt6785",
     "branch": "android-11.0"
@@ -10,7 +22,7 @@
     "repository": "PotatoDevices/vendor_redmi_begonia",
     "target_path": "vendor/redmi/begonia",
     "branch": "dumaloo-release"
-  },
+  },  
   {
     "remote": "github",
     "repository": "PotatoDevices/vendor_mediatek_interfaces",
@@ -21,7 +33,7 @@
     "remote": "github",
     "repository": "himanshu0218/android_vendor_mediatek_ims",
     "target_path": "vendor/mediatek/ims",
-    "branch": "eleven"
+    "branch": "dot11"
   },
   {
     "remote": "github",
@@ -35,10 +47,4 @@
     "target_path": "vendor/redmi/begonia-firmware",
     "branch": "dumaloo-release"
   },
-  {
-    "remote": "github",
-    "repository": "abhixv/device_mediatek_sepolicy",
-    "target_path": "device/mediatek/sepolicy",
-    "branch": "main"
-  }
 ]
